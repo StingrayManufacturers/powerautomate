@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+  }
+
+  header, footer {
+    text-align: center;
+    padding: 12px 16px;
+    background-color: #f9f9f9;
+  }
+
+  /* Header cosmetics */
+  header {
+    border-bottom: 2px solid #e4e4e4;
+  }
+  .header-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  header img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 6px auto;
+  }
+  .report-title {
+    margin: 4px 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+  .report-subtitle {
+    margin: 2px 0 6px;
+    font-size: 12px;
+    color: #666;
+  }
+  .report-meta {
+    font-size: 11px;
+    color: #888;
+  }
+
+  /* Table with shadow & rounded corners */
+  table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Shadow */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; /* Ensures corners apply to inner cells */
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    width: 35%;
+    vertical-align: top;
+    font-weight: bold;
+  }
+
+  td {
+    background-color: #fff;
+  }
+
+  caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* Footer cosmetics */
+  footer {
+    border-top: 1px solid #e4e4e4;
+  }
+  .footer-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .footer-brand {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  footer img {
+    max-width: 180px;
+    height: auto;
+  }
+  .footer-text {
+    font-size: 11px;
+    color: #666;
+    line-height: 1.45;
+  }
+  .footer-disclaimer {
+    margin-top: 6px;
+  }
+  .footer-note {
+    margin-top: 6px;
+    color: #888;
+  }
+
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    table {
+      width: 95%;
+    }
+    th, td {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    tr {
+      display: block;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    th {
+      background-color: #eaeaea;
+      padding: 8px;
+    }
+    td {
+      padding: 8px;
+    }
+    caption {
+      font-size: 16px;
+    }
+    .footer-brand {
+      flex-direction: column;
+    }
+    footer img {
+      max-width: 160px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-wrap">
+    <img src="https://stingraymanufacturers.github.io/powerautomate/Alva.png" alt="Header Logo">
+    <div class="report-title">Heater Assessment Report</div>
+    <div class="report-subtitle">Product Inspection Details</div>
+    <div class="report-meta">
+      Generated: 2025-11-26T18:09:52.9289679Z &nbsp;|&nbsp; Version: QA-1.0
+    </div>
+  </div>
+</header>
+
+<!-- TABLE -->
+<table>
+  <tr><th>Customer Name</th><td>TAKEALOT MARKETPLACE JHB</td></tr>
+  <tr><th>Guarantee</th><td>Yes</td></tr>
+  <tr><th>Repair number</th><td>8053379</td></tr>
+  <tr><th>Product Code</th><td>GH312</td></tr>
+  <tr><th>Leak Test</th><td>No Leak</td></tr>
+  <tr><th>Thermocouple</th><td>Secure</td></tr>
+  <tr><th>Regulator</th><td>Ok</td></tr>
+  <tr><th>Gas Valve</th><td>Ok</td></tr>
+  <tr><th>ODS/ Pilot Flame</th><td>Faulty</td></tr>
+  <tr><th>Jet/ Pipes</th><td>Ok</td></tr>
+  <tr><th>Blockage</th><td>Blockage</td></tr>
+  <tr><th>Bulb Switch</th><td>Ok</td></tr>
+  <tr><th>Damaged Packaging</th><td>No</td></tr>
+  <tr><th>Product Outcome</th><td>Credit</td></tr>
+  <tr><th>Destination</th><td>FS</td></tr>
+  <tr><th>Transportation Mode</th><td>N/A</td></tr>
+  <tr><th>Tested By</th><td>Warrick</td></tr>
+  <tr><th>Test Date</th><td>2025-11-26</td></tr>
+</table>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-wrap">
+    <div class="footer-brand">
+      <img src="https://stingraymanufacturers.github.io/powerautomate/LPGSA.png" alt="Footer Logo">
+      <div class="footer-text">
+        <div class="footer-disclaimer">
+          This inspection report is prepared for internal quality assurance.
+          Tests were performed under controlled conditions and in accordance
+          with applicable safety guidelines. Results do not constitute a
+          warranty of performance in environments or use cases outside the
+          test scope.
+        </div>
+        <div class="footer-note">
+          © 2025 The Stingray Group. All rights reserved.
+          | For verification or queries, contact QA: qa@stingraygroup.example
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
